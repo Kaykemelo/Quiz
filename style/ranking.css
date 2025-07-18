@@ -1,0 +1,102 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+.imagem-lateral {
+    width: 100px;
+    height: auto;
+}
+.imagem-direita {
+    width: 130px;
+    height: auto;
+}
+main.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 20px;
+}
+.List-container{
+    background-color: #fff;
+    width: 700px;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.title{
+    font-family: "Montserrat",sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;    
+}
+.subtitle {
+    font-family: "Raleway",sans-serif;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+.ListRanking {
+    border-collapse: collapse;
+    font-family: "Raleway",sans-serif;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    
+}
+.cabeçalhoRanking {
+    font-family: "Raleway",sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: black;
+
+}
+
+th {
+    letter-spacing: 1px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 8px 12px;
+    white-space: nowrap;
+    
+}
+.bodyRanking {
+    text-align: center;
+    background-color: rgb(247, 243, 243);
+    font-size: 15px;
+}
+
+td {
+    letter-spacing: 1px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+th,td {
+    width: 160px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-family: 'Montserrat'; 
+    font-weight: bold;
+    font-size: 18px;
+    margin: 1px 1px 6px;  
+    
+}

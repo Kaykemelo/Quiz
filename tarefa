@@ -1,0 +1,34 @@
+Tarefa 
+
+- Criar uma Pagina pra Listar todas as execuções do usuario , Listando o Nome,
+O Id da execução e a quanidade de respostas certas
+
+- primeiro ir pro banco testar o select ok
+
+1 - criar um metodo na classe de execução pra trazer essa listagem ok
+2 - criar um select com as informações da tarefa o nome do usuario, 
+o id da execução...ok
+3-Testar no banco esse select pra ver se esta certo ok
+4-instanciar a classe chamando esse metodo da listagem ok
+
+5-contar o total de acertos do usuario , com o count 
+6-estilizar a tabela de listagem 
+
+
+--
+-mudar a query pra listar os usuarios que estiver logado 
+- adicionar mais um filtro no metodo pra pegar pelo id do usuario 
+- passar por parametro da classe o id do usuario que ta na sessão 
+- passar o id na sessao do usuario pra variavel na classe 
+- passar o id do usuario logado que ta na sessão pra classe por um construtor, acessando o atributo 
+
+
+-- criar uma listagem de ranking dos usuarios que mais teve acertos no quiz, pegando o nome do usuario,
+a data da execução e a pontuação do usuario (total de acertos) 
+
+1-criar outra tela pra fazer a listagem ok
+2-criar outro metodo na classe de execução pra pegar essa listagem getDataRanking ok
+3- criar a query pra fazer a listagem  ok 
+4- instanciar a classe criando um obj dessa classe ok
+5- chamar o metodo da listagem ok
+6- exibir os campos dessa listagem na tabela  ok
