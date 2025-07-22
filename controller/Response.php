@@ -62,6 +62,7 @@ class Response extends Conexao {
    * author: Kayke Melo
    */
    public function getAlternativeSelected($alternative_id){
+    
         $aSelected = [];
 
         if(!is_null($this->conn)){

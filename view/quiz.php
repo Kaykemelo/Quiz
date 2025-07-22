@@ -1,9 +1,11 @@
 <?php
 date_default_timezone_set('America/Sao_Paulo');
 
-include "../conexao/conexao.php";
+
+
+include "../conexao/Conexao.php";
 include "../controller/Verification.php";
-include "../template/header.php"; 
+include "../template/Header.php"; 
 include "../controller/Executions.php";
 include "../controller/Question.php";
 include "../controller/Alternative.php";
@@ -49,7 +51,7 @@ $msg = $_GET['msg'] ?? NULL;
                     echo "<h2 class='subtitle'>".$_GET['msg']."</h2>";  
                 }
            ?>
-                <form method="post"  action="resultado.php">
+                <form method="post"  action="result.php"> 
                     <!--cria um laço de repetição pra pegar as perguntas com o indice do array !--> 
                     <section class="questions-alternative">
                     <?php  foreach ($aQuestions as $question) { ?>
@@ -77,7 +79,7 @@ $msg = $_GET['msg'] ?? NULL;
     
 <?php 
 
-    include "../template/footer.php";
+    include "../template/Footer.php";
 
 ?>
     

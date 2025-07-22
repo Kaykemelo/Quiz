@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Listagem</title>
-    <link rel="stylesheet" href="../style/listing.css">
+    <link rel="stylesheet" href="../style/Listing.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="icon" href="../assets/images/pngwing.com.png" type="image/png">
+    <link rel="icon" href="../assets/images/Icon.png" type="image/png">
 </head>
 <body>
     <header>

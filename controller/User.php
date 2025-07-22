@@ -36,7 +36,7 @@ class User extends Conexao {
     }
 
     public function createSession($name_user, $id_user){
-        // Cria variaveis de sesssao
+        // Cria uma Sessão daquele usuario logado
 
         session_start();
 

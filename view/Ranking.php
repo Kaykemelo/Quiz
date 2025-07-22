@@ -1,8 +1,8 @@
 <?php
 session_start();
 
-include "../conexao/conexao.php";
-include "../template/headerRanking.php";
+include "../conexao/Conexao.php";
+include "../template/HeaderRanking.php";
 include "../controller/Executions.php";
 
 $oExecutions = new Executions($_SESSION['id_User']);
@@ -43,7 +43,7 @@ $aRanking = $oExecutions->getDataRanking();
         </div>
     </main>
 <?php
-    include "../template/footer.php";
+    include "../template/Footer.php";
 ?>    
 
     

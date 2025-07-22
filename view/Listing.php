@@ -2,8 +2,8 @@
 
 session_start();
 
-include "../conexao/conexao.php";
-include "../template/headerList.php";
+include "../conexao/Conexao.php";
+include "../template/HeaderList.php";
 include "../controller/Executions.php";
 
 $oListing = new Executions($_SESSION['id_User']);
@@ -47,7 +47,7 @@ $aList = $oListing->list($id_user);
 
 
 <?php
-include "../template/footer.php";
+include "../template/Footer.php";
 ?>
     
 </body>

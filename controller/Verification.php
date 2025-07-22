@@ -1,4 +1,5 @@
 <?php
+
 class Verification {
 
     public function __construct()

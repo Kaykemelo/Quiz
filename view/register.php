@@ -1,6 +1,7 @@
 <?php
-    include "../conexao/conexao.php";
-    include "../template/headerRegister.php";
+
+    include "../conexao/Conexao.php";
+    include "../template/HeaderRegister.php";
     include "../controller/User.php";
 
     $oUser = new User();
@@ -59,7 +60,7 @@
 
     </main>
    <?php
-   include "../template/footer.php";
+   include "../template/Footer.php";
    ?>
 </body>
 </html>

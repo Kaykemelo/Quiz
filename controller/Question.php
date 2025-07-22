@@ -57,17 +57,4 @@ class Question extends Conexao {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ?>

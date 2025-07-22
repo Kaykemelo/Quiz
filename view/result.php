@@ -1,8 +1,8 @@
 <?php 
 session_start();
 
-include "../template/header.php";
-include "../conexao/conexao.php";
+include "../template/Header.php";
+include "../conexao/Conexao.php";
 include "../controller/Response.php";
 include "../controller/Executions.php";
 include "../controller/Alternative.php";
@@ -12,9 +12,10 @@ include "../controller/Question.php";
 
 $oResponse = new Response();
 
-// Valida se respostas foram preenchidas , calcula e salva no banco e redireciona com msg pro usuario
+// Valida se respostas foram preenchidas , calcula e salva no banco com as informações do usuario e execução, remove a execução do usuario atual, redireciona com msg pro usuario 
 if(count($_POST['resposta']) == 5) 
 {
+   
     $response  = $oResponse->calculateResponseQuiz($_POST);
 
     $_POST['id_User'] = $_SESSION['id_User'];
@@ -100,7 +101,7 @@ $oAlternatives = new Alternative();
     </main>
 
 <?php 
-    include "../template/footer.php";
+    include "../template/Footer.php";
 
 ?>
 

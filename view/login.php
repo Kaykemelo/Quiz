@@ -1,10 +1,10 @@
 <?php 
 
-include "../conexao/conexao.php";
-include "../template/headerLogin.php";
+include "../conexao/Conexao.php";
+include "../template/HeaderLogin.php";
 include "../controller/User.php";
 
-//var_dump($_POST);
+
 
 $oUser = new User();
 
@@ -63,7 +63,7 @@ if (isset($_POST['email']) && isset($_POST['senha'])) {
    
     <?php
     
-    include "../template/footer.php";
+    include "../template/Footer.php";
     ?>
    
 </body>

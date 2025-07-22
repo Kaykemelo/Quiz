@@ -53,18 +53,4 @@ class Alternative extends Conexao {
     } 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ?>

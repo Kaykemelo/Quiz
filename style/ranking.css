@@ -50,7 +50,7 @@ main.box {
 
 .ListRanking {
     border-collapse: collapse;
-    font-family: "Raleway",sans-serif;
+    font-family: "Montserrat",sans-serif;
     align-items: center;
     margin: 0 auto;
     margin-bottom: 10px;
@@ -73,8 +73,8 @@ th {
     white-space: nowrap;
     
 }
-.bodyRanking {
-    text-align: center;
+.BodyRanking { 
+    text-align: center; 
     background-color: rgb(247, 243, 243);
     font-size: 15px;
 }
