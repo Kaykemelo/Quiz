@@ -66,22 +66,5 @@ class User extends Conexao {
 
        
     }
-
-
-    public function show(){
-        //busca um usuario pelo id;
-    }
-
-    public function store(){
-        //inserir um novo usuario;
-    }
-
-    public function update(){
-        //altera um usuario;
-    }
-
-    public function delete(){
-        //deleta um usuario;  
-    }
 }
 ?>
