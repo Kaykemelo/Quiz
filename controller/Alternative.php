@@ -1,4 +1,4 @@
-.<?php 
+<?php 
 
 class Alternative extends Conexao {
 
@@ -31,26 +31,6 @@ class Alternative extends Conexao {
         
          return  $aAlternatives; 
     }
-
-
-    /*
-      * buscar uma alternativa especifica atraves do Id
-      * 16/05/2025
-      * author: Kayke Melo
-    */
-    public function show($id){
-        // retorna a pergunta especifica 
-    }
-
-    public function store(){
-         //retorna uma inserção de uma nova pergunta ;
-    }
-    public function update(){
-        //retorna uma alteração de uma pergunta ; 
-    }
-    public function delete(){
-        //retorna uma exclusão de uma pergunta ;  
-    } 
 }
 
 ?>
