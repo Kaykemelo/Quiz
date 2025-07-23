@@ -32,29 +32,6 @@ class Question extends Conexao {
         return  $aQuestions; 
      
     }
-
-
-
-    /*
-     * Busca Pergunta especifica atraves do ID
-     * 16/05/2025
-     * author: Kayke Melo
-     */
-    public function show($id){
-        // retorna a pergunta especifica; 
-    }
-
-    public function store() {
-        //retorna uma inserção de uma nova pergunta ;  
-    }
-
-    public function update(){
-        //retorna uma alteração de uma pergunta ;
-    }
-
-    public function delete(){
-        //retorna uma exclusão de uma pergunta ; 
-    }
 }
 
 ?>
