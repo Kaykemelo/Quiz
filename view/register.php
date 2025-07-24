@@ -38,17 +38,17 @@
 
                 <div class="campo-nome">
                     <label for="nome">Nome:</label>
-                    <input type="text" id="name" name="nome"> 
+                    <input type="text" id="name" name="nome" required> 
                 </div>
 
                 <div class="campo-email">
                     <label for="email">Email:</label>
-                    <input type="text" id="email" name="email">
+                    <input type="text" id="email" name="email" required>
                 </div>
 
                 <div class="campo-senha">
                     <label for="senha">Senha:</label>
-                    <input type="password" id="senha" name="senha">
+                    <input type="password" id="senha" name="senha" required>
                 </div>
                 
                 <div class="botao">
